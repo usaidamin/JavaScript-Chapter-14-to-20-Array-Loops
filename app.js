@@ -28,7 +28,7 @@ document.write("Score Of " + stdName[2] + "is " + stdScore[2] + " . Percentage I
 
 
 var askColor = ["Red", "Green", "Blue"];
-prompt("Enter Your Color").unshift();
+prompt("Enter Your Color");
 
 var stdScore = [320, 280, 480 , 120];
 stdScore.sort();
@@ -66,7 +66,7 @@ document.write(arr_1.join(' ') + "<br>");
 document.write(arr_2.join(' ') + "<br>");
 document.write(arr_3.join(' ') + "<br>");
 
-// var loop = "Habib"; just for cause not for applause
+var loop = "Habib"; //just for cause not for applause
 for (let a = 1; a <= 10; a++) {
     document.write( a +"<br>");
 
@@ -154,7 +154,7 @@ for (let a = 0; a <= food.length; a++) {
 var num1 = +(prompt("Enter first number: "));
 var num2 = +(prompt("Enter second number: "));
 var num3 = +(prompt("Enter third number: "));
-var largest;
+let largest;
 
 if (num1 >= num2 && num1 >= num3) {
     largest = num1;
@@ -170,7 +170,7 @@ console.log("The largest number is " + largest);
 var num1 = +prompt("Enter First Number: ");
 var num2 = +prompt("Enter Second Number: ");
 var num3 = +prompt("Enter Third Number: ");
-let largest;
+let smallest;
 
 if (num1 <= num2 && num1 <= num3) {
     largest = num1;
